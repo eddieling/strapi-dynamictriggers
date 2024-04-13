@@ -18,10 +18,10 @@
     "Subheader": {
       "type": "text"
     },
-    "AnimationType": {
+    "PrimaryAnimationType": {
       "type": "string"
     },
-    "AnimationSpeed": {
+    "PrimaryAnimationSpeed": {
       "type": "string"
     },
     "BackgroundImage": {
@@ -47,14 +47,21 @@
       ]
     },
     "BackgroundVideo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "SecondaryAnimationType": {
+      "type": "string"
+    },
+    "SecondaryAnimationSpeed": {
+      "type": "string"
     }
   }
 }

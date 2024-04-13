@@ -376,11 +376,13 @@ export interface ApiContentContent extends Schema.CollectionType {
   attributes: {
     Headline: Attribute.String;
     Subheader: Attribute.Text;
-    AnimationType: Attribute.String;
-    AnimationSpeed: Attribute.String;
+    PrimaryAnimationType: Attribute.String;
+    PrimaryAnimationSpeed: Attribute.String;
     BackgroundImage: Attribute.Media;
     AnimatedImage: Attribute.Media;
     BackgroundVideo: Attribute.Media;
+    SecondaryAnimationType: Attribute.String;
+    SecondaryAnimationSpeed: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
