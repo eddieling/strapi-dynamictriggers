@@ -62,12 +62,6 @@
     },
     "SecondaryAnimationSpeed": {
       "type": "string"
-    },
-    "Title": {
-      "type": "string"
-    },
-    "Title2": {
-      "type": "string"
     }
   }
 }
