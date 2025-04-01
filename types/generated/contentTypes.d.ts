@@ -383,6 +383,7 @@ export interface ApiContentContent extends Schema.CollectionType {
     BackgroundVideo: Attribute.Media;
     SecondaryAnimationType: Attribute.String;
     SecondaryAnimationSpeed: Attribute.String;
+    Title: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
