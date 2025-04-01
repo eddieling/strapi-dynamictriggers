@@ -384,6 +384,7 @@ export interface ApiContentContent extends Schema.CollectionType {
     SecondaryAnimationType: Attribute.String;
     SecondaryAnimationSpeed: Attribute.String;
     Title: Attribute.String;
+    Title2: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

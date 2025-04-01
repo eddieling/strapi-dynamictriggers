@@ -65,6 +65,9 @@
     },
     "Title": {
       "type": "string"
+    },
+    "Title2": {
+      "type": "string"
     }
   }
 }
