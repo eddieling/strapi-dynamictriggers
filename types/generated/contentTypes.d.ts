@@ -375,6 +375,7 @@ export interface ApiContentContent extends Schema.CollectionType {
   };
   attributes: {
     Title: Attribute.String;
+    Displays: Attribute.Component<'display.displays', true>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
