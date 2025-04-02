@@ -12,55 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Headline": {
-      "type": "string"
-    },
-    "Subheader": {
-      "type": "text"
-    },
-    "PrimaryAnimationType": {
-      "type": "string"
-    },
-    "PrimaryAnimationSpeed": {
-      "type": "string"
-    },
-    "BackgroundImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "AnimatedImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "BackgroundVideo": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "SecondaryAnimationType": {
-      "type": "string"
-    },
-    "SecondaryAnimationSpeed": {
+    "Title": {
       "type": "string"
     }
   }
