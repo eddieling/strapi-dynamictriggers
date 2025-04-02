@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_display_displays",
+  "info": {
+    "displayName": "Displays",
+    "icon": "slideshow"
+  },
+  "options": {},
+  "attributes": {
+    "Displays": {
+      "displayName": "Resolution",
+      "type": "component",
+      "repeatable": true,
+      "component": "display.resolution"
+    }
+  }
+}

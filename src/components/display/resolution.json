@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_display_resolutions",
+  "info": {
+    "displayName": "Resolution",
+    "icon": "slideshow"
+  },
+  "options": {},
+  "attributes": {
+    "Resolutions": {
+      "type": "enumeration",
+      "enum": [
+        "w800h1140",
+        "w1024h768",
+        "w1200h1710",
+        "w1600h980"
+      ]
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Video": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
