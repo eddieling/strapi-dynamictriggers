@@ -5,9 +5,10 @@ export interface DisplayDisplays extends Schema.Component {
   info: {
     displayName: 'Displays';
     icon: 'slideshow';
+    description: '';
   };
   attributes: {
-    Displays: Attribute.Component<'display.resolution', true>;
+    Displays: Attribute.Component<'display.resolution'>;
   };
 }
 
@@ -16,13 +17,14 @@ export interface DisplayResolution extends Schema.Component {
   info: {
     displayName: 'Resolution';
     icon: 'slideshow';
+    description: '';
   };
   attributes: {
     Resolutions: Attribute.Enumeration<
-      ['w800h1140', 'w1024h768', 'w1200h1710', 'w1600h980']
+      ['w800h1140', 'w1024h768', 'w1200h1710', 'w1600h980', 'w1920h1080']
     >;
-    Image: Attribute.Media;
-    Video: Attribute.Media;
+    Media: Attribute.Media;
+    Name: Attribute.String;
   };
 }
 
