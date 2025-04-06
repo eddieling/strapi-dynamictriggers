@@ -25,6 +25,38 @@
     },
     "Subheader": {
       "type": "string"
+    },
+    "Headline_Animation": {
+      "type": "enumeration",
+      "enum": [
+        "animate__bounce",
+        "animate__flash",
+        "animate__pulse",
+        "animate__rubberBand",
+        "animate__swing",
+        "animate__wobble",
+        "animate__heartBeat",
+        "animate__bounceInDown",
+        "animate__bounceInLeft",
+        "animate__bounceInRight",
+        "animate__bounceInUp"
+      ]
+    },
+    "Subheader_Animation": {
+      "type": "enumeration",
+      "enum": [
+        "animate__bounce",
+        "animate__flash",
+        "animate__pulse",
+        "animate__rubberBand",
+        "animate__swing",
+        "animate__wobble",
+        "animate__heartBeat",
+        "animate__bounceInDown",
+        "animate__bounceInLeft",
+        "animate__bounceInRight",
+        "animate__bounceInUp"
+      ]
     }
   }
 }

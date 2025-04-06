@@ -378,6 +378,36 @@ export interface ApiContentContent extends Schema.CollectionType {
     Displays: Attribute.Component<'screen.screens', true>;
     Headline: Attribute.String;
     Subheader: Attribute.String;
+    Headline_Animation: Attribute.Enumeration<
+      [
+        'animate__bounce',
+        'animate__flash',
+        'animate__pulse',
+        'animate__rubberBand',
+        'animate__swing',
+        'animate__wobble',
+        'animate__heartBeat',
+        'animate__bounceInDown',
+        'animate__bounceInLeft',
+        'animate__bounceInRight',
+        'animate__bounceInUp'
+      ]
+    >;
+    Subheader_Animation: Attribute.Enumeration<
+      [
+        'animate__bounce',
+        'animate__flash',
+        'animate__pulse',
+        'animate__rubberBand',
+        'animate__swing',
+        'animate__wobble',
+        'animate__heartBeat',
+        'animate__bounceInDown',
+        'animate__bounceInLeft',
+        'animate__bounceInRight',
+        'animate__bounceInUp'
+      ]
+    >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
