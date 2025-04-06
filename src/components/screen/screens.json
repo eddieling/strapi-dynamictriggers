@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_screen_screens",
+  "info": {
+    "displayName": "Screens",
+    "icon": "slideshow",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Displays": {
+      "type": "enumeration",
+      "enum": [
+        "w800h1140",
+        "w1024h768",
+        "w1200h1710",
+        "w1600h980",
+        "w1920h1080"
+      ]
+    },
+    "Media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

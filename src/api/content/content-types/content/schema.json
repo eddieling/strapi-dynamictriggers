@@ -18,7 +18,13 @@
     "Displays": {
       "type": "component",
       "repeatable": true,
-      "component": "display.displays"
+      "component": "screen.screens"
+    },
+    "Headline": {
+      "type": "string"
+    },
+    "Subheader": {
+      "type": "string"
     }
   }
 }
